@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion</title>
+</head>
+<body>
+  <style>
+    .container {
+        margin: 0 auto;
+        width: 50%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .cell {
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid green;
+        width: 100%;
+      }
+      .active-cell {
+        border-color: red;
+        padding-bottom: 50px;
+      }
+  </style>
+  <div class="container">
+    <div class="cell">Блок номер 1</div>
+    <div class="cell">Блок номер 2</div>
+    <div class="cell">Блок номер 3</div>
+    <div class="cell">Блок номер 4</div>
+    <div class="cell">Блок номер 5</div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
